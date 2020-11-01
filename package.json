@@ -4,6 +4,7 @@
   "description": "Single page travel website using MD bootstrap and boostrap.",
   "main": "index.html",
   "scripts": {
+    "live": "live-server --port=9000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
