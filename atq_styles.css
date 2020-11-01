@@ -1,0 +1,17 @@
+.bg-ateeq, .btn-ateeq{
+    background-color: #015445;
+}
+
+.text-ateeq{
+    color: #015445;
+}
+
+.carousel .carousel-indicators li{
+    width: 30px;
+    height: 5px;
+    border-radius: 0%;
+}
+
+.carousel-caption{
+    bottom: 20%;
+}
