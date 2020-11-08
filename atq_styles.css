@@ -1,3 +1,6 @@
+html{
+    scroll-behavior:smooth;
+}
 .bg-ateeq, .btn-ateeq{
     background-color: #015445;
 }
@@ -12,6 +15,14 @@
     border-radius: 0%;
 }
 
-.carousel-caption{
-    bottom: 20%;
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20%;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+    }
 }
